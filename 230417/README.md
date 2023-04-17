@@ -37,9 +37,9 @@
 - 카테고리 조회(get)
 - 카테고리 추가(post)
 
-  > 1. 어떤 카테고리인지 결정 후 추가
-  > 2. 이름, 가격, 설명, 제조사, 카테고리
-  > 3. [nanoid](https://www.npmjs.com/package/nanoid)를 사용하여 상품 고유 id 생성
+> 1. 어떤 카테고리인지 결정 후 추가
+> 2. 이름, 가격, 설명, 제조사, 카테고리
+> 3. [nanoid](https://www.npmjs.com/package/nanoid)를 사용하여 상품 고유 id 생성
 
 - 카테고리 수정(patch)
 - 카테고리 삭제(delete)
