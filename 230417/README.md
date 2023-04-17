@@ -122,3 +122,5 @@ bbbbㅠ## **🗓️ 4/17(월) 회의록**
 | 카트        | cart        | Array  | true     | false  | 주문 정보 모두 담고 있음 |
 | 배송 상태   | status      | String | true     | false  | -                        |
 | 총액        | total       | Number | true     | false  | -                        |
+
+Copyright © 2023. Rki0(Pak-Kiyoung). All rights reserved.
