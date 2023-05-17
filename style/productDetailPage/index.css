@@ -1,0 +1,74 @@
+hr {
+    border: 0.5px solid #bcbcbc;
+    margin: 10px 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    position: relative;
+}
+
+.thumbnail .product_img {
+    width: 500px;
+    height: 625px;
+}
+
+.info-area {
+    display: grid;
+    align-items: center;
+}
+
+.heading-area .product_name {
+    font-weight: bold;
+}
+
+.heading-area .product_desc {
+    margin-top: 10px;
+}
+
+.heading-area .product_price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-detail tr {
+    line-height: 30px;
+}
+
+.product-detail th {
+    font-weight: normal !important;
+    width: 25%;
+}
+
+.total-product .sec_name {
+    font-size: 15px;
+}
+
+.total-price {
+    text-align: end;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.hap {
+    font-size: 18px;
+}
+
+.sell-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sell-info button {
+    width: 300px;
+    margin: 0 10px;
+}
+
+.text-bg-success {
+    position: absolute;  
+    bottom: 0;
+    left: 0;
+}

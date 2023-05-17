@@ -1,0 +1,21 @@
+.productImg {
+    display: flexbox;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.addproductBtn {
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.d-grid > .btn {
+    margin-bottom: 10px;
+}

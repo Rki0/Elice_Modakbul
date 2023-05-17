@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Reset CSS */
+a {
+  text-decoration: none;
+  /* 부모의 color를 상속받게 함 */
+  color: inherit;
+}
+
+/* form 관련 태그는 font-family가 안 먹힐 때가 있으므로 따로 명시함 */
+button,
+input,
+textarea {
+  font-family: "DM Sans", sans-serif;
+  /* 이 태그들은 글자 크기가 기본적으로 작아서 일단 잘 보이게 설정 */
+  font-size: 16px;
+}
+
+/* 클릭했을 때 나오는 강조 테두리 없애기 */
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  box-shadow: none;
+  outline: none;
+}
+
+/* 리스트 스타일을 없애고, 여백을 삭제함 */
+ul,
+ol,
+li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
